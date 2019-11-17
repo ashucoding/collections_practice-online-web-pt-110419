@@ -46,7 +46,7 @@ def find_a(array)
     word[0] == "a"
   end
   
-sum_array([1,9,50,134])
+sum_array = [1,9,50,134]
 
   def sum_array
     sum = 0
@@ -56,4 +56,14 @@ sum_array([1,9,50,134])
   sum
 end 
 
+add_s = ["door", "cat", "tub", "wall"]
 
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
