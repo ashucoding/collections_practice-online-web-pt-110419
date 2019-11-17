@@ -29,4 +29,7 @@ end
 
 reverse_array = ["Africa","France","Japan"]
   
+  def reverse_array(array)
+  array.reverse
 end
+
