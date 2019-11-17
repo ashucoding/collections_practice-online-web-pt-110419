@@ -12,10 +12,12 @@ def sort_array_desc(array)
   end
 end
 
-sort_array_char_count = []
+sort_array_char_count = ["Mary","John","Andy"]
 
 def sort_array_char_count(array)
   array.sort do |left, right|
     left.length <=> right.length
   end
 end
+
+
