@@ -33,3 +33,9 @@ reverse_array = ["Africa","France","Japan"]
   array.reverse
 end
 
+kesha_maker = ["bling","Ca-ching", "Money"]
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
