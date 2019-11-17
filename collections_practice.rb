@@ -46,7 +46,8 @@ def find_a(array)
     word[0] == "a"
   end
   
-  
+sum_array([1,9,50,134])
+
   def sum_array
     sum = 0
   array.each do |num|
